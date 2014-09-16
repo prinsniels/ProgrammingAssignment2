@@ -1,12 +1,13 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Set of functions that make it possible to store a matrix and its
+## inverse into cache
 
-# makeCacheMatrix takes a matrix and puths the matrxi in cache
+# makeCacheMatrix 
+# takes a matrix and puths the matrix in cache
 # the matrix is stored in Cache as x
 # the inverse is stored in Cache as inv_v
 # 
 # the function returns a list with the memory pointers to the matrixes
-# the user can reteive data via these pointers..
+# the user can reteive data via these pointers.
 
 makeCacheMatrix <- function(x = matrix()) {
     
@@ -33,13 +34,12 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-
 # cacheSovle 
 # function checks if the inverse of the matrix is in memory 
 # via the inputed list
 # if so, it retreives the inverse from memory
 # if not, it computes and stores the matrix in memory
+#
 
 cacheSolve <- function(x, ...) {
     
