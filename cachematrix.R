@@ -8,6 +8,14 @@
 # 
 # the function returns a list with the memory pointers to the matrixes
 # the user can reteive data via these pointers.
+#
+#  1. set the value of the matrix
+#  2. get the value of the matrix
+#  3. set the value of the inverse
+#  4. get the value of the inverse
+#  5. Build the list
+#
+
 
 makeCacheMatrix <- function(x = matrix()) {
     
